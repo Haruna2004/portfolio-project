@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #0f0e0e 0%, #123597 100%);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.blue-text-clip {
+  background: linear-gradient(135deg, #ffa6b7 0%, #1e2ad2 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.blue-gradient {
+  background: linear-gradient(135deg, #ffa6b7 0%, #1e2ad2 100%);
+}
+
+.yellow-text-clip {
+  background: linear-gradient(135deg, #fdd819 0%, #e80505 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.yellow-gradient {
+  background: linear-gradient(135deg, #fccf31 0%, #f55555 100%);
+}
+
+.lightblue-text-clip {
+  background: linear-gradient(135deg, #2afadf 0%, #4c83ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.lightblue-gradient {
+  background: linear-gradient(135deg, #2afadf 0%, #4c83ff 100%);
+}
+
+.lightyellow-text-clip {
+  background: linear-gradient(135deg, #ffa8a8 0%, #fcff00 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.lightyellow-gradient {
+  background: linear-gradient(135deg, #ffa8a8 0%, #fcff00 100%);
+}

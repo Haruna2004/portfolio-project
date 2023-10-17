@@ -13,7 +13,7 @@ function Skills() {
           text_clip="yellow-text-clip"
         />
         {/* background info */}
-        <p className="text-center max-w-[63.0625rem] text-xl leading-[142.9%] mt-8">
+        <p className="text-center max-w-[63.0625rem] text-xl leading-[142.9%] mt-8 px-5">
           Since beginning my journey as a freelance developer nearly 10 years
           ago, I&apos;ve done remote work for agencies, consulted for startups,
           and collaborated with talented people to create web products for both
@@ -27,7 +27,7 @@ function Skills() {
           layouts.
         </p>
         {/* Skill cards */}
-        <div className="mt-32 grid grid-cols-3 gap-x-5 gap-y-6 w-full px-24 mb-40">
+        <div className="mt-32 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-5 gap-y-6 w-full px-10 sm:px-24 mb-40">
           {skills.map((skill) => (
             <SkillCard key={skill.title} {...skill} />
           ))}

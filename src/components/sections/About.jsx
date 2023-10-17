@@ -3,7 +3,7 @@ import SectionHeader from "../helpers/SectionHeader";
 function About() {
   return (
     <section id="about" className="h-screen">
-      <div className="flex items-center justify-center flex-col w-full h-full">
+      <div className="flex items-center justify-center flex-col w-full h-full px-5">
         {/* section header */}
         <SectionHeader
           num="3"
@@ -24,7 +24,7 @@ function About() {
           entire frontend spectrum and working on ambitious projects with
           positive people.
         </p>
-        <p className="text-center font-bold text-xl lightblue-text-clip mt-14">
+        <p className="text-center font-bold text-xl lightblue-text-clip mt-14 mb-40">
           Let&apos;s make something special.
         </p>
       </div>

@@ -23,7 +23,7 @@ const CaseStudies = () => {
         </div>
 
         {/* other projects */}
-        <div className="flex items-center gap-5 justify-around my-[15rem] w-full px-24">
+        <div className="flex items-center gap-5 justify-around my-[15rem] w-full px-10 sm:px-24 flex-col md:flex-row">
           <ProjectCard />
           <ProjectCard />
           <ProjectCard />

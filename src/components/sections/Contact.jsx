@@ -4,7 +4,7 @@ import SectionHeader from "../helpers/SectionHeader";
 function Contact() {
   return (
     <section id="contact" className="min-h-screen">
-      <div className="flex items-center justify-center flex-col w-full h-full">
+      <div className="flex items-center justify-center flex-col w-full h-full px-5">
         {/* section header */}
         <SectionHeader
           num="4"

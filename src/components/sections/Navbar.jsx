@@ -2,10 +2,12 @@ import { navlinks } from "../../constants";
 import menu_icon from "../../assets/menu-icon.svg";
 function Navbar() {
   return (
-    <nav className=" text-xl flex items-center justify-between px-14 xl:px-24 py-10">
+    <nav className=" text-xl flex items-center justify-between px-5 sm:px-14 xl:px-24 py-5 sm:py-10">
       {/* logo */}
       <a href="#" className="flex items-center justify-center gap-2">
-        <div className="bg-blue-400 w-8 h-8 text-center rounded-full">D</div>
+        <p className="bg-blue-400 px-3 py-1 text-center rounded-full leading-0 font-mono">
+          D
+        </p>
         <h4>Daniel Creed</h4>
       </a>
 

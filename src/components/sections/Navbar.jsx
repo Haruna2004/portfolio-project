@@ -18,7 +18,10 @@ function Navbar() {
       {/* desktop */}
       <ul className="md:flex items-center gap-5 hidden">
         {navlinks.map(({ title, link }) => (
-          <li key={title} className="">
+          <li
+            key={title}
+            className="hover:text-white/80 transition-colors duration-150"
+          >
             <a href={link}>{title}</a>
           </li>
         ))}
@@ -32,13 +35,19 @@ function Navbar() {
       </div>
       <div
         className={cn(
-          "absolute right-5 top-16 nav-bg p-4 rounded-xl transition-opacity duration-200",
-          !openMenu && "opacity-0"
+          "absolute right-5 top-16 nav-bg p-4 rounded-xl transition-opacity duration-200 md:hidden",
+          !openMenu && "opacity-0 hidden"
         )}
       >
-        <ul className="flex flex-col gap-2">
+        <ul
+          className="flex flex-col gap-2"
+          onClick={() => setOpenMenu((prev) => !prev)}
+        >
           {navlinks.map(({ title, link }) => (
-            <li key={title} className="hover:text-white hover:scale-105">
+            <li
+              key={title}
+              className="hover:text-white hover:scale-105 text-base"
+            >
               <a href={link}>{title}</a>
             </li>
           ))}

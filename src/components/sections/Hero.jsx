@@ -1,8 +1,8 @@
 function Hero() {
   return (
-    <section id="home" className="text-white min-h-screen section-heigh">
-      <div className="flex flex-col items-center justify-center w-full h-5/6 sm:px-10 md:px-40 xl:px-96">
-        <h1 className="text-white font-bold text-[4rem] text-center">
+    <section id="home" className="text-white first-letter h-screen">
+      <div className="flex flex-col gap-5 items-center justify-center w-full h-5/6 sm:px-10 md:px-40 xl:px-96">
+        <h1 className="text-white font-bold text-5xl md:text-[4rem] text-center">
           Hi, I&apos;m Daniel
         </h1>
         <h3 className="text-center font-semibold text-4xl blue-text-clip px-2">

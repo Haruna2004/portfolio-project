@@ -9,9 +9,7 @@ function App() {
   return (
     <>
       <div className="text-textPrimary font-montserrat">
-        <div className="sticky top-0 w-full z-10">
-          <Navbar />
-        </div>
+        <Navbar />
         <Hero />
         <CaseStudies />
         <Skills />

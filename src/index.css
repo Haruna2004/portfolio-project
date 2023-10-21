@@ -15,10 +15,10 @@ body {
   background-position: center;
 }
 
-.section-height {
+/* .section-height {
   min-height: calc(100vh - 116px);
   border-top-width: 2px;
-}
+} */
 
 .nav-bg {
   background: linear-gradient(135deg, #0f0e0e 0%, #123597 100%);

@@ -5,7 +5,7 @@ import SectionHeader from "../helpers/SectionHeader";
 
 const CaseStudies = () => {
   return (
-    <section id="case-studies" className="h-fit min-h-screen">
+    <section id="case-studies" className="h-fit min-h-screen section-heigh">
       <div className="flex items-center justify-center flex-col w-full h-full">
         <p className="text-base text-white">Explore</p>
         <SectionHeader

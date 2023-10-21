@@ -2,7 +2,7 @@ import SectionHeader from "../helpers/SectionHeader";
 
 function About() {
   return (
-    <section id="about" className="h-screen">
+    <section id="about" className="min-h-screen">
       <div className="flex items-center justify-center flex-col w-full h-full px-5">
         {/* section header */}
         <SectionHeader

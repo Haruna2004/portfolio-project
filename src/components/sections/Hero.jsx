@@ -1,6 +1,6 @@
 function Hero() {
   return (
-    <section id="#home" className="text-white h-screen">
+    <section id="home" className="text-white min-h-screen section-heigh">
       <div className="flex flex-col items-center justify-center w-full h-5/6 sm:px-10 md:px-40 xl:px-96">
         <h1 className="text-white font-bold text-[4rem] text-center">
           Hi, I&apos;m Daniel

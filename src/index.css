@@ -15,6 +15,17 @@ body {
   background-position: center;
 }
 
+.section-height {
+  min-height: calc(100vh - 116px);
+  border-top-width: 2px;
+}
+
+.nav-bg {
+  background: linear-gradient(135deg, #0f0e0e 0%, #123597 100%);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .blue-text-clip {
   background: linear-gradient(135deg, #ffa6b7 0%, #1e2ad2 100%);
   background-clip: text;

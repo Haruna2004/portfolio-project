@@ -11,7 +11,7 @@ function Project({ name, description, image1, image2, image3 }) {
           alt="proj-img"
           className="max--[61.75rem] w-full max-h-[41.625rem]"
         />
-        <div className="flex gap-5 w-full items-center justify-between flex-col md:flex-row">
+        <div className="flex gap-5 w-full items-center justify-between flex-col xl:flex-row">
           <img
             src={image2}
             alt="proj-img"

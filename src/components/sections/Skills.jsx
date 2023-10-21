@@ -27,7 +27,7 @@ function Skills() {
           layouts.
         </p>
         {/* Skill cards */}
-        <div className="mt-32 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-5 gap-y-6 w-full px-10 sm:px-24 mb-40">
+        <div className="mt-32 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-5 gap-y-6 w-full px-10 sm:px-24 mb-40">
           {skills.map((skill) => (
             <SkillCard key={skill.title} {...skill} />
           ))}

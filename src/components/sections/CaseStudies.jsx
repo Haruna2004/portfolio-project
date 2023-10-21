@@ -1,4 +1,4 @@
-import { case_studies } from "../../constants";
+import { case_studies, projects } from "../../constants";
 import Project from "../helpers/Project";
 import ProjectCard from "../helpers/ProjectCard";
 import SectionHeader from "../helpers/SectionHeader";
@@ -24,9 +24,9 @@ const CaseStudies = () => {
 
         {/* other projects */}
         <div className="flex items-center gap-5 justify-around my-[15rem] w-full px-10 sm:px-24 flex-col md:flex-row">
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
+          {projects.map((project) => (
+            <ProjectCard key={project.name} {...project} />
+          ))}
         </div>
       </div>
     </section>

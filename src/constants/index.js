@@ -36,6 +36,30 @@ export const navlinks = [
   },
 ];
 
+export const projects = [
+  {
+    sector: "Ecommerce",
+    product: "Website",
+    name: "Jumia",
+    desc: "technology has the potential to transform, everyday life in Africa, for the better.",
+    proj_link: "https://viewcase.study",
+  },
+  {
+    sector: "Ecommerce",
+    product: "Website",
+    name: "Lingo",
+    desc: "technology has the potential to transform, everyday life in Africa, for the better.",
+    proj_link: "https://viewcase.study",
+  },
+  {
+    sector: "Ecommerce",
+    product: "Website",
+    name: "Brex",
+    desc: "technology has the potential to transform, everyday life in Africa, for the better.",
+    proj_link: "https://viewcase.study",
+  },
+];
+
 export const case_studies = [
   {
     name: "Crypto Website",
